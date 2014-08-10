@@ -1,0 +1,11 @@
+**ask user for input
+**welcome text
+**ask user to add story
+**ask user to add category
+**calculate upvotes for story based on story title and category
+we display the story with the upvotes back to the user
+
+**we want to ask the user if they want to add another story
+  - if the user says yes, collect the informaiton again, and return to previous question/point
+
+after the user says 'no' to adding more stories, we display all stories

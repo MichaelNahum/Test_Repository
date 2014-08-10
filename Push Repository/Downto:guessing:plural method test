@@ -1,0 +1,22 @@
+5.downto(0) do |guess|
+
+    if guess > 0
+        puts "You have #{guess} #{singularity('guess', 'guesses', guess)}"
+    else
+        puts "You suck!"
+
+
+end
+
+def singularity(s, p, n)
+ s = 'guess'
+ p = 'guesses'
+ n = 5
+
+    if n == 1
+        return s
+    else
+        return p
+    end
+ 
+end
